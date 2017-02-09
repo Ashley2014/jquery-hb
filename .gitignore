@@ -1,0 +1,15 @@
+/.idea
+/node_modules
+
+
+/tmp
+/dist
+/src/css/main.css
+/src/css/main.css.map
+/src/css/style.css
+/src/css/style.css.map
+
+/src/js/bundle.js
+/src/js/bundle.js.map
+
+
