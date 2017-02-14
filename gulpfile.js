@@ -48,7 +48,7 @@ gulp.task("webpack:dev", function(callback) {
 });
 
 
-gulp.task("webpack", function(callback) {
+gulp.task("webpack",['devServer'], function(callback) {
     var webpackConfig=require('./webpack.config.js');
     return webpack( webpackConfig, function(err, stats) {
         if(err) throw new plugins.util.PluginError("webpack", err);
