@@ -3,6 +3,7 @@
 
 
 /tmp
+/dist/bundle.js.map
 /src/css/main.css
 /src/css/main.css.map
 /src/css/style.css
